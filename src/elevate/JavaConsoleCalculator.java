@@ -22,6 +22,7 @@ public class JavaConsoleCalculator {
 			int choice = sc.nextInt();
 			switch(choice) {
 			case 0:
+				System.out.println("Exiting....");
 				System.exit(0);
 			case 1:
 				addition(a,b);
